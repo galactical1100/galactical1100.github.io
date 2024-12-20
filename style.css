@@ -133,6 +133,7 @@ main {
     background: #fff;
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    align-items: center;
 }
 .project.reverse {
     flex-direction: row-reverse;
@@ -155,4 +156,25 @@ footer {
     padding: 20px;
     background-color: #204571;
     color: #fff;
+}
+
+.multi-embed {
+    display: flex;
+    gap: 10px;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.multi-embed iframe {
+    height: 300px; /* Set a consistent height */
+    border: none;
+}
+
+.multi-embed iframe:first-child {
+    width: 533px; /* Landscape (16:9 aspect ratio) */
+}
+
+.multi-embed iframe:last-child {
+    width: 200px; /* Portrait (9:16 aspect ratio) */
 }

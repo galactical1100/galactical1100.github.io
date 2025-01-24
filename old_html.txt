@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jonah Segree - Portfolio</title>
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="bio">
+            <img src="jonah_segree_photo.png" alt="Your Photo" class="bio-image">
+            <div class="bio-text">
+                <h1>Jonah Segree</h1>
+                <h2>Creative Strategist</h2>
+                <p>Recent graduate with a passion for creative strategy and a knack for solving problems by analyzing trends, and thinking innovatively. I thrive on collaboration, ensuring every project is grounded, achievable, and impactful. I'm always thrilled to contribute fresh perspectives and strategic insights to help brands tell their story and meet their goals.</p>
+                <div class="contact-info">
+                    <p><a href="mailto:jonah12segree@gmail.com">jonah12segree@gmail.com</a></p>
+                    <div class="buttons">
+                        <a href="Jonah Segree's Resume.pdf" target="_blank" class="download-btn">View Resume</a>
+                        <a href="https://www.linkedin.com/in/jonah-segree/" target="_blank" class="linkedin-link">
+                            <img src="linkedin-logo.png" alt="LinkedIn Profile" class="linkedin-logo">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    
+
+    <!-- Projects Section -->
+    <main>
+        <section class="project reverse">
+            <div class="project-content">
+                <h2>Biscuit Belly Ad Campaign</h2>
+                <p>What began as a class project turned into a series of ads run by Biscuit Belly across multiple social media platforms. After communicating with the client, we identified two goals: introduce the brand to consumers near newly opened locations, and position their new lunch offerings as a healthier option. After our presentation, the client asked to run our example ads on Facebook and Instagram that day. Ads often require revisions, but this experience shows that if you listen to the client's needs, you can get it right on the first try.</p>
+            </div>
+            <div class="project-images">
+                <a href="biscuit_belly_ad_campaign.pdf" target="_blank">
+                    <img src="biscuit-belly-ads.png" alt="Biscuit Belly Ad">
+                </a>                
+                
+            </div>
+        </section>
+
+        <section class="project">
+            <div class="project-content">
+                <h2>Hardcore Cottagecore Marketing</h2>
+                <p>Louisville, Kentucky based game developer Two Scoop Games faced an incredibly crowded video game market with their 2024 release 'Hardcore Cottagecore'. With roughly 50 games releasing on Steam every day HCCC needed to stand out, while being familiar enough to appeal to its playerbase. By understanding the target audience of the game and our unique selling proposition, I created trailers and social media content, and conducted targetted influencer outreach resulting in significant coverage.</p>
+            </div>
+            <div class="project-images">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/bCvSYpt1RCs?si=N-_KQxdXZDLgNH64" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+        </section>
+
+        <section class="project">
+            <div class="project-images">
+                <img src="dre_work.png" alt="DRE New Logo and Promotion">
+            </div>
+            <div class="project-content">
+                <h2>DRE Rebrand</h2>
+                <p>DRE faces a unique challenge; after decades of business using the name DRE, they were bought and rebranded as Avante Medical Surgical in 2019. In 2024, the business is operating independently as DRE once again, and while the future looks brighter than ever, they face the uphill battle of reinventing their brand. A brand new logo would make them unrecognizable to past customers, and reusing the old logo could lead customers to believe they were looking at an outdated website. My goal was to create a logo that was immediately recognizable as the same DRE customers love, but unmistakably modernized.</p>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Jonah Segree. All rights reserved.</p>
+    </footer>
+</body>
+</html>
